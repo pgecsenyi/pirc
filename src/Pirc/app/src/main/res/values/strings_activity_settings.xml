@@ -1,0 +1,111 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="pref_preferred_audio_outputs">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="pref_preferred_audio_output_values">
+        <item>analog</item>
+        <item>digital</item>
+    </string-array>
+
+    <!-- General settings. -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_general_ui_langauge">UI language</string>
+    <string name="pref_description_general_ui_language">The language of User Interface.</string>
+    <string-array name="pref_general_ui_languages">
+        <item>English</item>
+    </string-array>
+    <string-array name="pref_general_ui_languages_values">
+        <item>English</item>
+    </string-array>
+
+    <!-- Connection settings. -->
+    <string name="pref_header_connection">Connection</string>
+
+    <string name="pref_title_connection_address">Address</string>
+    <string name="pref_description_connection_address">The address of the server.</string>
+
+    <string name="pref_title_connection_protocol">Protocol</string>
+    <string name="pref_description_connection_protocol">The protocol used to communicate with the server.</string>
+    <string-array name="pref_protocols">
+        <item>HTTP (REST)</item>
+    </string-array>
+    <string-array name="pref_protocols_values">
+        <item>0</item>
+    </string-array>
+
+    <!-- Audio settings. -->
+    <string name="pref_header_audio">Audio</string>
+    <string name="pref_title_audio_preferred_audio_output">Preferred audio output</string>
+    <string name="pref_description_audio_preferred_audio_output">The preferred audio output for music.</string>
+
+    <!-- Video settings. -->
+    <string name="pref_header_video">Video</string>
+
+    <string name="pref_title_video_preferred_audio_output">Preferred audio output</string>
+    <string name="pref_description_video_preferred_audio_output">The preferred audio output for videos.</string>
+
+    <string name="pref_title_video_preferred_language">Preferred language</string>
+    <string name="pref_description_video_preferred_language">The preferred language of videos.</string>
+    <string-array name="pref_preferred_languages">
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Swedish</item>
+    </string-array>
+    <string-array name="pref_preferred_languages_values">
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Swedish</item>
+    </string-array>
+
+    <string name="pref_title_video_preferred_subtitle_language">Preferred subtitle language</string>
+    <string name="pref_description_video_preferred_subtitle_language">The preferred language of subtitles.</string>
+    <string-array name="pref_preferred_subtitle_languages">
+        <item>None</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Swedish</item>
+    </string-array>
+    <string-array name="pref_preferred_subtitle_languages_values">
+        <item>None</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Swedish</item>
+    </string-array>
+
+</resources>

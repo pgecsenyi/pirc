@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            tools:context="com.pie.pirc.gui.fragments.MaintenanceFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_gravity="top"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  tools:context="com.pie.pirc.gui.fragments.VideoDetailsFragment">
+
+        <TextView android:id="@+id/tvMaintenance"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="15dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/maintenance"
+                  android:textSize="22sp" />
+
+        <TextView android:id="@+id/tvHintSynchronize"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="15dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/hint_synchronize" />
+
+        <Button android:id="@+id/btnSynchronize"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:text="@string/synchronize_database" />
+
+        <TextView android:id="@+id/tvHintReset"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="15dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/hint_rebuild" />
+
+        <Button android:id="@+id/btnReset"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:text="@string/rebuild_database" />
+
+    </LinearLayout>
+
+</ScrollView>

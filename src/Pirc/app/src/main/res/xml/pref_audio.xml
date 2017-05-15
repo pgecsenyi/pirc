@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference android:key="audio_preferred_audio_output"
+                    android:title="@string/pref_title_audio_preferred_audio_output"
+                    android:defaultValue="digital"
+                    android:entries="@array/pref_preferred_audio_outputs"
+                    android:entryValues="@array/pref_preferred_audio_output_values"
+                    android:negativeButtonText="@null"
+                    android:positiveButtonText="@null" />
+
+</PreferenceScreen>

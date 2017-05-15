@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            tools:context="com.pie.pirc.gui.fragments.VideoDetailsFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_gravity="top"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  tools:context="com.pie.pirc.gui.fragments.VideoDetailsFragment">
+
+        <TextView android:id="@+id/tvTitle"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="15dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/title"
+                  android:textSize="22sp" />
+
+        <TextView android:id="@+id/tvLanguageAndQuality"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/language_and_quality"
+                  android:textSize="17sp" />
+
+        <Spinner android:id="@+id/spLanguageAndQuality"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="1dp"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginRight="8dp"
+                 android:layout_marginTop="1dp"
+                 android:layout_width="match_parent" />
+
+        <TextView android:id="@+id/tvSubtitle"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/subtitle"
+                  android:textSize="17sp" />
+
+        <Spinner android:id="@+id/spSubtitles"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="1dp"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginRight="8dp"
+                 android:layout_marginTop="1dp"
+                 android:layout_width="match_parent" />
+
+        <TextView android:id="@+id/tvAudioOutput"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:layout_width="wrap_content"
+                  android:text="@string/audio_output"
+                  android:textSize="17sp" />
+
+        <Spinner android:id="@+id/spAudioOutputs"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="1dp"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginRight="8dp"
+                 android:layout_marginTop="1dp"
+                 android:layout_width="match_parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:layout_gravity="center_horizontal"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      tools:context="com.pie.pirc.gui.fragments.VideoDetailsFragment">
+
+            <Button android:id="@+id/btnPlay"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:text="@string/play" />
+
+            <Button android:id="@+id/btnAddToPlaylist"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:text="@string/add_to_playlist" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
