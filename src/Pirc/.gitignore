@@ -35,10 +35,12 @@ captures/
 
 # IntelliJ files.
 *.iml
+.idea/caches/build_file_checksums.ser
 .idea/dictionaries
 .idea/libraries
 .idea/gradle.xml
 .idea/tasks.xml
+.idea/vcs.xml
 .idea/workspace.xml
 
 # Keystore files
